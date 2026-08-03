@@ -1,26 +1,64 @@
 # Azure Cloud Engineer Journey
 
-Welcome to my Azure Cloud Engineering learning journey.
+## 👋 About Me
 
-## About Me
+Hi, I'm Hashara.
 
-- IT Executive at UTS College Sri Lanka
-- Degree in Networking and Mobile Computing
-- Learning Microsoft Azure to become an Azure Cloud Engineer
-- Studying for AZ-104
-- Building real-world Azure projects using Bicep, PowerShell, Azure CLI, and Terraform
+I'm currently working as an IT Executive at UTS College Sri Lanka.
 
-## Repository Structure
+I have over 3 years of experience managing:
 
-- Week-by-week learning notes
-- Hands-on lab documentation
-- Azure architecture diagrams
-- PowerShell automation
-- Azure CLI scripts
-- Bicep templates
-- Terraform deployments
-- Interview preparation notes
+- Active Directory
+- Microsoft Intune
+- Microsoft Entra ID
+- Windows Servers
+- Networking
 
-## Goal
+I hold a degree in Networking and Mobile Computing.
 
-Build a production-style Azure environment while preparing for the AZ-104 certification.
+I'm currently preparing for the Microsoft AZ-104 certification while building real-world Azure projects.
+
+---
+
+## 🎯 Goal
+
+Become an Azure Cloud Engineer specializing in:
+
+- Cloud Networking
+- Azure Infrastructure
+- Automation
+- Identity
+- Security
+
+---
+
+## 📂 Repository Structure
+
+Week-by-week learning
+
+PowerShell Automation
+
+Azure CLI Scripts
+
+Bicep Templates
+
+Terraform
+
+Architecture Diagrams
+
+Screenshots
+
+Interview Notes
+
+---
+
+## 🛠 Technologies
+
+- Microsoft Azure
+- PowerShell
+- Azure CLI
+- Bicep
+- Terraform
+- Active Directory
+- Microsoft Entra ID
+- Microsoft Intune
