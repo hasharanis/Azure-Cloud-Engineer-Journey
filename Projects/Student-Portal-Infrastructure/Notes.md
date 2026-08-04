@@ -8,7 +8,10 @@ Build the initial Azure network for the UTS Student Portal.
 
 - Resource Group
 - Virtual Network
-- Four Subnets
+- Four Subnet
+- Bastion subnet
+- bastion
+- Three network security groups
 
 ## Design Decisions
 
