@@ -9,7 +9,8 @@
 - [x] Windows API VM
 - [x] Windows SQL VM
 - [x] IIS Installation
-- [ ] ASP.NET Core API
+- [x] ASP.NET Core API
+- [x] Created first ASP.NET Core Web API project
 - [ ] SQL Server
 - [ ] Application Gateway
 - [ ] HTTPS
