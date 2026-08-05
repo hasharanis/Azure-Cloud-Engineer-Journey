@@ -1,1 +1,16 @@
+## Progress
 
+- [x] Resource Group
+- [x] Virtual Network
+- [x] Subnets
+- [x] NSGs
+- [x] Azure Bastion
+- [x] Windows Web VM
+- [x] Windows API VM
+- [x] Windows SQL VM
+- [x] IIS Installation
+- [ ] ASP.NET Core API
+- [ ] SQL Server
+- [ ] Application Gateway
+- [ ] HTTPS
+- [ ] Monitoring
