@@ -27,7 +27,7 @@ New-NetFirewallRule -DisplayName "Allow ASP.NET API 5231" -Direction Inbound -Pr
 
 The Web VM successfully communicated with the API over the private Azure VNet.
 
-### special Note
+### Special Note
 
 Test-NetConnection 
 - If TcpTestSucceeded is False, it's a connectivity problem.
