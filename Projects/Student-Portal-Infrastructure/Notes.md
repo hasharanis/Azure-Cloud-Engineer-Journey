@@ -1,26 +1,66 @@
-# Lab 01 - Azure Network Foundation
+# UTS Student Portal - Infrastructure Deployment
 
 ## Objective
 
-Build the initial Azure network for the UTS Student Portal.
+Build a secure three-tier Azure infrastructure for a Student Portal.
 
-## Components Created
+---
 
-- Resource Group
-- Virtual Network
-- Four Subnet
-- Bastion subnet
-- bastion
-- Three network security groups
+## Architecture
 
-## Design Decisions
+Internet
 
-- Web servers isolated from application servers.
-- Database placed in its own subnet.
-- Management subnet reserved for Azure Bastion and administration.
-- Used private address space 10.0.0.0/16 for future scalability.
+↓
+
+Azure Application Gateway (Planned)
+
+↓
+
+Web VM
+
+↓
+
+API VM
+
+↓
+
+SQL VM
+
+Administrative Access
+
+↓
+
+Azure Bastion
+
+---
+
+## Components
+
+Resource Group
+
+VNet
+
+WebSubnet
+
+APISubnet
+
+SQLSubnet
+
+AzureBastionSubnet
+
+Network Security Groups
+
+Azure Bastion
+
+Windows Server 2025 VMs
+
+IIS Web Server
+
+---
 
 ## Lessons Learned
 
-- Azure VNets are the foundation of all Azure networking.
-- Subnets separate workloads by function.
+- Why private IPs are preferred for backend servers.
+- Azure Bastion removes the need for public RDP.
+- NSGs filter network traffic but do not authenticate users.
+- Three-tier architecture improves security and scalability.
