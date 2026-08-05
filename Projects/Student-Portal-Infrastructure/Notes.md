@@ -64,3 +64,4 @@ IIS Web Server
 - Azure Bastion removes the need for public RDP.
 - NSGs filter network traffic but do not authenticate users.
 - Three-tier architecture improves security and scalability.
+- Why Are We Testing localhost First - If it doesn't work on localhost, then we know the issue is with the application itself not the network.
