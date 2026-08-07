@@ -65,3 +65,25 @@ IIS Web Server
 - NSGs filter network traffic but do not authenticate users.
 - Three-tier architecture improves security and scalability.
 - Why Are We Testing localhost First - If it doesn't work on localhost, then we know the issue is with the application itself not the network.
+
+## Business Logic
+
+Web VM
+Job:
+- Display HTML
+- CSS
+- JavaScript
+
+API VM
+Job:
+- Authentication
+- Authorization
+- Business Logic
+
+SQL VM
+Job:
+- Store data
+- Execute SQL queries
+- Return rows
+
+---
