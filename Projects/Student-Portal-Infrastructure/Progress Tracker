@@ -11,7 +11,7 @@
 - [x] IIS Installation
 - [x] ASP.NET Core API
 - [x] Created first ASP.NET Core Web API project
-- [ ] SQL Server
+- [x] SQL Server
 - [ ] Application Gateway
 - [ ] HTTPS
 - [ ] Monitoring
