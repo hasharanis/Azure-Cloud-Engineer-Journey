@@ -15,3 +15,49 @@
 - [ ] Application Gateway
 - [ ] HTTPS
 - [ ] Monitoring
+
+## Date - 07.08.2026
+
+## Completed Architecture
+
+- Azure Virtual Network
+- WebSubnet (10.0.1.0/24)
+- APISubnet (10.0.2.0/24)
+- SQLSubnet (10.0.3.0/24)
+- Azure Bastion subnet
+
+## Virtual Machines
+
+- UTS-PRD-WEB-01 (IIS)
+- UTS-PRD-API-01 (.NET 10 Web API)
+- UTS-PRD-SQL-01 (SQL Server)
+
+## Networking
+
+- Separate NSGs for Web, API, and SQL tiers
+- Private communication between application tiers
+- Azure Bastion for administrative access
+- SQL Server isolated from the public internet
+
+## Application
+
+- IIS serving a web application
+- ASP.NET Core Minimal API
+- API reachable from the Web VM
+- Windows Firewall configured for API communication
+
+## Database
+
+- SQL Server installed
+- SQL Server Management Studio (SSMS) installed
+- `UTSStudentPortal` database created
+- `Students` table created with:
+  - `StudentID` as Primary Key
+  - Identity column enabled
+- Sample student records inserted
+
+## Next Steps
+
+- Connect the ASP.NET Core API to SQL Server
+- Replace hardcoded data with live database queries
+- Implement Microsoft Entra ID authentication
