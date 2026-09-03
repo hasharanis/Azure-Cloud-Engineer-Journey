@@ -23,8 +23,9 @@
 - Azure Virtual Network
 - WebSubnet (10.0.1.0/24)
 - APISubnet (10.0.2.0/24)
-- SQLSubnet (10.0.3.0/24)
-- Azure Bastion subnet
+- DatabaseSubnet (10.0.3.0/24)
+- Azure Bastion subnet(10.0.10.0/26)
+- Application Gateway subnet(10.0.5.0/24)
 
 ## Virtual Machines
 
